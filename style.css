@@ -8,34 +8,34 @@ a{
     text-decoration: none;
 }
 
-.hero-container {
+.header-container {
     background-color: #1F2937;
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.hero-container header{
+.header-container header{
     display: flex;
     justify-content: space-between;
     font-family: Roboto;
 }
 
-.hero-logo a{
+.header-logo a{
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.hero-links a{
+.header-links a{
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.hero-logo {
+.header-logo {
     display: flex;
     align-items: center;
 }
 
-.hero-links {
+.header-links {
     display: flex;
     gap: 20px;
     align-items: center;
