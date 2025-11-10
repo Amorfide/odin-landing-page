@@ -11,8 +11,8 @@ a{
 
 .header-container {
     background-color: #1F2937;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .header-container header{
@@ -56,8 +56,8 @@ h2 {
 .hero {
     display: flex;
     align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     justify-content: space-between;
     background-color: #1F2937;
 }
@@ -68,7 +68,7 @@ h2 {
     gap: 5px;
 }
 
-p {
+.hero p {
     margin:0;
     width: 400px;
     color: #E5E7EB;
@@ -114,4 +114,19 @@ img {
 .card1 p, .card2 p, .card3 p, .card4 p{
     width: 150px;
     color: black;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    width: 40%;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
 }
