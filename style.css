@@ -98,8 +98,7 @@ button {
 
 .cards {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
 }
 
 div {
@@ -129,4 +128,33 @@ img {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
+}
+
+.quote-container p {
+    margin: 0px;
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3882F6;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 100px;
+    gap: 20%;
+    border-radius: 8px;
+}
+
+.button-section p {
+    margin: 0;
+    color:#E5E7EB;
+}
+
+.button-section p.action {
+    font-weight: 800;
+}
+
+.button1 {
+    border: 2px solid #E5E7EB;
 }
