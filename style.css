@@ -158,3 +158,12 @@ img {
 .button1 {
     border: 2px solid #E5E7EB;
 }
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
